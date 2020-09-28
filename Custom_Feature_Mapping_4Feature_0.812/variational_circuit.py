@@ -44,8 +44,6 @@ def variational_circuit():
                 custom_circ.u1(x[i] * x[j], j)
                 custom_circ.cx(i, j)
             
-    custom_circ.draw()
-        
             
     
                 
